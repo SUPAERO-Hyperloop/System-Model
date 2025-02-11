@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Blocks="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks">
+  <uml:Model xmi:id="_z7MmUOV6Ee-ortJe7C2W4w" name="HyperloopModel_Systems">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_z_GO4OV6Ee-ortJe7C2W4w">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_z_X7sOV6Ee-ortJe7C2W4w">
+      <importedPackage xmi:type="uml:Package" href="pathmap://SysML16_LIBRARIES/SysML-Standard-Library.uml#SysML.package_packagedElement_Libraries"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_XAnQ4OV7Ee-ortJe7C2W4w" name="1 Problem Domain">
+      <packagedElement xmi:type="uml:Package" xmi:id="_yPHpkOV7Ee-ortJe7C2W4w" name="1.1 Black Box">
+        <packagedElement xmi:type="uml:Package" xmi:id="_83NCkOV7Ee-ortJe7C2W4w" name="1.1.1 Stakeholder Requirements"/>
+        <packagedElement xmi:type="uml:Package" xmi:id="_I_o0AOV8Ee-ortJe7C2W4w" name="1.1.2 System Context">
+          <packagedElement xmi:type="uml:Class" xmi:id="_TTDSoOV-Ee-ortJe7C2W4w" name="HyperloopSupaero">
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_7gMkoOWBEe-ortJe7C2W4w" type="_-_5lsOWBEe-ortJe7C2W4w" aggregation="composite"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_dMKwAOWCEe-ortJe7C2W4w" type="_jEWEUOWCEe-ortJe7C2W4w" aggregation="composite"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_m0GTkOWCEe-ortJe7C2W4w" type="_uBPPsOWCEe-ortJe7C2W4w" aggregation="composite"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_u6SXkOWCEe-ortJe7C2W4w" type="_yZ_YoOWCEe-ortJe7C2W4w" aggregation="composite"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_zToWYOWCEe-ortJe7C2W4w" type="_1NSmsOWCEe-ortJe7C2W4w" aggregation="composite"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_2eTioOWCEe-ortJe7C2W4w" type="_4BksMOWCEe-ortJe7C2W4w" aggregation="composite"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_5fA6kOWCEe-ortJe7C2W4w" type="_68IY0OWCEe-ortJe7C2W4w" aggregation="composite"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_8KoMQOWCEe-ortJe7C2W4w" type="_9318AOWCEe-ortJe7C2W4w" aggregation="composite"/>
+            <ownedConnector xmi:type="uml:Connector" xmi:id="_-t5k0OWDEe-ortJe7C2W4w" name="Connector9">
+              <end xmi:type="uml:ConnectorEnd" xmi:id="_-t92QOWDEe-ortJe7C2W4w" role="_u6SXkOWCEe-ortJe7C2W4w"/>
+              <end xmi:type="uml:ConnectorEnd" xmi:id="_-t92QeWDEe-ortJe7C2W4w" role="_7gMkoOWBEe-ortJe7C2W4w"/>
+            </ownedConnector>
+            <ownedConnector xmi:type="uml:Connector" xmi:id="__ZL9gOWDEe-ortJe7C2W4w" name="Connector10">
+              <end xmi:type="uml:ConnectorEnd" xmi:id="__ZNLoOWDEe-ortJe7C2W4w" role="_dMKwAOWCEe-ortJe7C2W4w"/>
+              <end xmi:type="uml:ConnectorEnd" xmi:id="__ZNysOWDEe-ortJe7C2W4w" role="_7gMkoOWBEe-ortJe7C2W4w"/>
+            </ownedConnector>
+            <ownedConnector xmi:type="uml:Connector" xmi:id="_A5boQOWEEe-ortJe7C2W4w" name="Connector11">
+              <end xmi:type="uml:ConnectorEnd" xmi:id="_A5ddcOWEEe-ortJe7C2W4w" role="_7gMkoOWBEe-ortJe7C2W4w"/>
+              <end xmi:type="uml:ConnectorEnd" xmi:id="_A5eEgOWEEe-ortJe7C2W4w" role="_m0GTkOWCEe-ortJe7C2W4w"/>
+            </ownedConnector>
+            <ownedConnector xmi:type="uml:Connector" xmi:id="_Bn0YQOWEEe-ortJe7C2W4w" name="Connector12">
+              <end xmi:type="uml:ConnectorEnd" xmi:id="_Bn0_UOWEEe-ortJe7C2W4w" role="_7gMkoOWBEe-ortJe7C2W4w"/>
+              <end xmi:type="uml:ConnectorEnd" xmi:id="_Bn0_UeWEEe-ortJe7C2W4w" role="_5fA6kOWCEe-ortJe7C2W4w"/>
+            </ownedConnector>
+            <ownedConnector xmi:type="uml:Connector" xmi:id="_CKm8QOWEEe-ortJe7C2W4w" name="Connector13">
+              <end xmi:type="uml:ConnectorEnd" xmi:id="_CKnjUOWEEe-ortJe7C2W4w" role="_7gMkoOWBEe-ortJe7C2W4w"/>
+              <end xmi:type="uml:ConnectorEnd" xmi:id="_CKoKYOWEEe-ortJe7C2W4w" role="_2eTioOWCEe-ortJe7C2W4w"/>
+            </ownedConnector>
+            <ownedConnector xmi:type="uml:Connector" xmi:id="_NIzvMOWEEe-ortJe7C2W4w" name="Connector14">
+              <end xmi:type="uml:ConnectorEnd" xmi:id="_NI0WQOWEEe-ortJe7C2W4w" role="_8KoMQOWCEe-ortJe7C2W4w"/>
+              <end xmi:type="uml:ConnectorEnd" xmi:id="_NI09UOWEEe-ortJe7C2W4w" role="_7gMkoOWBEe-ortJe7C2W4w"/>
+            </ownedConnector>
+            <ownedConnector xmi:type="uml:Connector" xmi:id="_OBMvwOWEEe-ortJe7C2W4w" name="Connector15">
+              <end xmi:type="uml:ConnectorEnd" xmi:id="_OBN94OWEEe-ortJe7C2W4w" role="_zToWYOWCEe-ortJe7C2W4w"/>
+              <end xmi:type="uml:ConnectorEnd" xmi:id="_OBN94eWEEe-ortJe7C2W4w" role="_7gMkoOWBEe-ortJe7C2W4w"/>
+            </ownedConnector>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_nZb_0OWDEe-ortJe7C2W4w" name="1.1.2.1 System&amp;ExternalEntities">
+            <packagedElement xmi:type="uml:Class" xmi:id="_-_5lsOWBEe-ortJe7C2W4w" name="HyperloopSystem"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_jEWEUOWCEe-ortJe7C2W4w" name="CompetitionEntity"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_uBPPsOWCEe-ortJe7C2W4w" name="Sponsors"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_yZ_YoOWCEe-ortJe7C2W4w" name="EngTeams&amp;Mentors"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_1NSmsOWCEe-ortJe7C2W4w" name="TestFacilities"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_4BksMOWCEe-ortJe7C2W4w" name="Suppliers"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_68IY0OWCEe-ortJe7C2W4w" name="Workshops"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_9318AOWCEe-ortJe7C2W4w" name="Collaborators"/>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_z8_9IOV6Ee-ortJe7C2W4w">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_z9EOkOV6Ee-ortJe7C2W4w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_z-_hMOV6Ee-ortJe7C2W4w">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_z_AIQOV6Ee-ortJe7C2W4w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//activities"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Activities"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_z_DLkOV6Ee-ortJe7C2W4w">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_z_DyoOV6Ee-ortJe7C2W4w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//allocations"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Allocations"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_z_DyoeV6Ee-ortJe7C2W4w">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_z_DyouV6Ee-ortJe7C2W4w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Blocks"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_z_Dyo-V6Ee-ortJe7C2W4w">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_z_DypOV6Ee-ortJe7C2W4w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//constraintblocks"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_ConstraintBlocks"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_z_EZsOV6Ee-ortJe7C2W4w">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_z_EZseV6Ee-ortJe7C2W4w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//deprecatedelements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_DeprecatedElements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_z_EZsuV6Ee-ortJe7C2W4w">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_z_EZs-V6Ee-ortJe7C2W4w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//modelelements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_ModelElements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_z_EZtOV6Ee-ortJe7C2W4w">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_z_EZteV6Ee-ortJe7C2W4w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//portsandflows"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Ports_u0026Flows"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_z_FAwOV6Ee-ortJe7C2W4w">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_z_FAweV6Ee-ortJe7C2W4w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//requirements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Requirements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_z_FAwuV6Ee-ortJe7C2W4w">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_z_Fn0OV6Ee-ortJe7C2W4w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+    </profileApplication>
+  </uml:Model>
+  <Blocks:Block xmi:id="_TTILIOV-Ee-ortJe7C2W4w" base_Class="_TTDSoOV-Ee-ortJe7C2W4w"/>
+  <Blocks:Block xmi:id="_-_8B8OWBEe-ortJe7C2W4w" base_Class="_-_5lsOWBEe-ortJe7C2W4w"/>
+  <Blocks:Block xmi:id="_jEYgkOWCEe-ortJe7C2W4w" base_Class="_jEWEUOWCEe-ortJe7C2W4w"/>
+  <Blocks:Block xmi:id="_uBRE4OWCEe-ortJe7C2W4w" base_Class="_uBPPsOWCEe-ortJe7C2W4w"/>
+  <Blocks:Block xmi:id="_yaBN0OWCEe-ortJe7C2W4w" base_Class="_yZ_YoOWCEe-ortJe7C2W4w"/>
+  <Blocks:Block xmi:id="_1NUb4OWCEe-ortJe7C2W4w" base_Class="_1NSmsOWCEe-ortJe7C2W4w"/>
+  <Blocks:Block xmi:id="_4BmhYOWCEe-ortJe7C2W4w" base_Class="_4BksMOWCEe-ortJe7C2W4w"/>
+  <Blocks:Block xmi:id="_68K1EOWCEe-ortJe7C2W4w" base_Class="_68IY0OWCEe-ortJe7C2W4w"/>
+  <Blocks:Block xmi:id="_933xMOWCEe-ortJe7C2W4w" base_Class="_9318AOWCEe-ortJe7C2W4w"/>
+</xmi:XMI>
